@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const values = [
@@ -57,6 +58,35 @@ export default function HomePage() {
               "radial-gradient(circle at 20% 20%, white 0, transparent 35%), radial-gradient(circle at 80% 60%, white 0, transparent 30%)",
           }}
         />
+      </section>
+
+      <section className="bg-ocean-900 py-16 text-white sm:py-20">
+        <div className="container-page grid items-center gap-10 md:grid-cols-2">
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-lg">
+            <Image
+              src="/images/reef-survey-diver.jpg"
+              alt="A diver in full scuba gear runs a measuring tape along a reef transect line, collecting data for a coral health survey while a second diver looks on."
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-seafoam-300">
+              Conservation in Action
+            </p>
+            <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
+              We dive with data sheets, not just cameras
+            </h2>
+            <p className="mt-4 max-w-xl text-ocean-100">
+              On every expedition, our divers run reef transects, log coral
+              health, and track wildlife alongside local marine scientists —
+              real citizen-science work that helps protect the ecosystems we
+              travel to explore.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section className="container-page py-16 sm:py-20">
