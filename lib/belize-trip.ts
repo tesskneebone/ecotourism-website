@@ -120,6 +120,7 @@ export const notIncluded = [
   "Wetsuit, fins, booties, mask & dive computer (required past 60ft or for Advanced) — bring your own or rent",
   "BCD & regulator rental — $45/wk (free with your own gear)",
   "Alcohol & soda on the island — $2–5/drink",
+  "Private bedroom instead of shared — additional fee applies",
   "PADI eLearning fees (paid direct to PADI)",
   "Certifications & specialty courses (see add-ons)",
   "Travel & dive insurance",
