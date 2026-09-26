@@ -7,7 +7,17 @@ export const metadata: Metadata = {
     "Conscious Diver Expeditions: small-group scuba travel and conservation trips built around sustainable diving practices.",
 };
 
-const trips = [
+type Trip = {
+  name: string;
+  location: string;
+  length: string;
+  group: string;
+  description: string;
+  tags: string[];
+  href?: string;
+};
+
+const trips: Trip[] = [
   {
     name: "Coral Triangle Restoration",
     location: "Raja Ampat, Indonesia",
@@ -36,13 +46,14 @@ const trips = [
     tags: ["Sharks", "Marine protected area", "Advanced"],
   },
   {
-    name: "Mesoamerican Reef Cleanup",
+    name: "Belize Reef Expedition",
     location: "Belize Barrier Reef",
-    length: "6 days",
-    group: "Max 12 divers",
+    length: "8 days",
+    group: "Max 8 divers",
     description:
-      "A hands-on trip combining reef dives with ghost-net removal and beach cleanups alongside local conservation groups.",
-    tags: ["Cleanup", "Community", "Open water"],
+      "The Great Blue Hole and a week of hands-on marine conservation work with ReefCI — lionfish removal, reef surveys, and PADI certifications along the way.",
+    tags: ["Conservation", "Blue Hole", "All levels"],
+    href: "/expeditions/belize-reef-expedition",
   },
   {
     name: "Cold Water Kelp Forests",
@@ -109,53 +120,79 @@ export default function ExpeditionsPage() {
               Upcoming expeditions
             </h2>
             <p className="mt-2 max-w-2xl text-ocean-700">
-              A sample of the trips on our calendar. Placeholder listings for
-              now — full booking details are on the way.
+              A sample of the trips on our calendar. The Belize Reef
+              Expedition is open for booking; the rest are placeholder
+              listings for now — full details on the way.
             </p>
           </div>
         </div>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {trips.map((trip) => (
-            <article
-              key={trip.name}
-              className="flex flex-col rounded-2xl border border-ocean-100 bg-white p-6 shadow-sm"
-            >
-              <h3 className="text-lg font-semibold text-ocean-900">
-                {trip.name}
-              </h3>
-              <p className="mt-1 text-sm font-medium text-ocean-600">
-                {trip.location}
-              </p>
-              <p className="mt-3 flex-1 text-sm text-ocean-700">
-                {trip.description}
-              </p>
-              <dl className="mt-4 flex gap-4 text-xs text-ocean-600">
-                <div>
-                  <dt className="font-semibold uppercase tracking-wide text-ocean-400">
-                    Length
-                  </dt>
-                  <dd>{trip.length}</dd>
+          {trips.map((trip) => {
+            const content = (
+              <>
+                <h3 className="text-lg font-semibold text-ocean-900">
+                  {trip.name}
+                </h3>
+                <p className="mt-1 text-sm font-medium text-ocean-600">
+                  {trip.location}
+                </p>
+                <p className="mt-3 flex-1 text-sm text-ocean-700">
+                  {trip.description}
+                </p>
+                <dl className="mt-4 flex gap-4 text-xs text-ocean-600">
+                  <div>
+                    <dt className="font-semibold uppercase tracking-wide text-ocean-400">
+                      Length
+                    </dt>
+                    <dd>{trip.length}</dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold uppercase tracking-wide text-ocean-400">
+                      Group size
+                    </dt>
+                    <dd>{trip.group}</dd>
+                  </div>
+                </dl>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {trip.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full bg-seafoam-50 px-3 py-1 text-xs font-medium text-seafoam-700"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
-                <div>
-                  <dt className="font-semibold uppercase tracking-wide text-ocean-400">
-                    Group size
-                  </dt>
-                  <dd>{trip.group}</dd>
-                </div>
-              </dl>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {trip.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full bg-seafoam-50 px-3 py-1 text-xs font-medium text-seafoam-700"
-                  >
-                    {tag}
+                {trip.href && (
+                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-ocean-600">
+                    View details
+                    <span aria-hidden="true">&rarr;</span>
                   </span>
-                ))}
-              </div>
-            </article>
-          ))}
+                )}
+              </>
+            );
+
+            const className =
+              "flex flex-col rounded-2xl border border-ocean-100 bg-white p-6 shadow-sm" +
+              (trip.href
+                ? " transition-shadow hover:shadow-lg"
+                : "");
+
+            return trip.href ? (
+              <Link
+                key={trip.name}
+                href={trip.href}
+                className={className}
+              >
+                {content}
+              </Link>
+            ) : (
+              <article key={trip.name} className={className}>
+                {content}
+              </article>
+            );
+          })}
         </div>
       </section>
 
