@@ -1,12 +1,5 @@
 import Link from "next/link";
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/expeditions", label: "Expeditions" },
-  { href: "/co", label: "Co." },
-  { href: "/contact", label: "Contact" },
-];
-
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-ocean-100 bg-ocean-50/90 backdrop-blur">
@@ -24,18 +17,12 @@ export default function Navbar() {
           The Conscious Diver
         </Link>
 
-        <ul className="flex items-center gap-1 sm:gap-2">
-          {links.map((link) => (
-            <li key={link.href}>
-              <Link
-                href={link.href}
-                className="rounded-full px-3 py-2 text-sm font-medium text-ocean-800 transition-colors hover:bg-ocean-100 hover:text-ocean-950 sm:px-4"
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <a
+          href="#signup"
+          className="rounded-full bg-ocean-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-ocean-700"
+        >
+          Reserve my spot
+        </a>
       </nav>
     </header>
   );
