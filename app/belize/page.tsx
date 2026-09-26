@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Belize Reef Expedition — Reserve Your Spot",
   description:
-    "An 8-day, small-group dive trip to Belize: the Great Blue Hole, a week of hands-on marine conservation work with ReefCI, and PADI certifications along the way. Only 8 spots per departure.",
+    "An 8-day, small-group dive trip to Belize: the Great Blue Hole, a week of hands-on marine conservation work with ReefCI, and PADI certifications along the way. Only 12 spots per departure.",
 };
 
 export default function BelizeLandingPage() {
@@ -70,7 +70,7 @@ export default function BelizeLandingPage() {
         </h2>
         <p className="mt-2 max-w-2xl text-ocean-700">
           Choose the tier that fits your schedule and certification level.
-          Only 8 spots per departure.
+          Only 12 spots per departure.
         </p>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
@@ -123,8 +123,9 @@ export default function BelizeLandingPage() {
         </div>
 
         <p className="mt-6 text-sm text-ocean-700">
-          No deposit required to hold your spot — final payment is due 1
-          month before departure.
+          A $600 nonrefundable deposit via Venmo (@tess-kneebone) holds your
+          spot, followed by $600 two months before departure and the
+          remaining balance one month before departure.
         </p>
       </section>
 
@@ -136,7 +137,7 @@ export default function BelizeLandingPage() {
             </h2>
             <p className="mt-3 text-ocean-700">
               Tell us a bit about you and we&apos;ll follow up with full
-              booking details. Only 8 spots per departure.
+              booking details. Only 12 spots per departure.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-xl">
@@ -266,8 +267,13 @@ export default function BelizeLandingPage() {
                 <li>No certification required to join</li>
                 <li>Advanced Open Water required for the Blue Hole dive</li>
                 <li>
-                  Our group of 8 travels together, but the island hosts up to
-                  25 guests a week — you may share it with other travelers
+                  Our group of up to 12 travels together, but the island
+                  hosts up to 25 guests a week — you may share it with other
+                  travelers
+                </li>
+                <li>
+                  All backgrounds & experience levels welcome — a friendly,
+                  kind, educational environment
                 </li>
               </ul>
             </div>

@@ -7,12 +7,13 @@ import {
   included,
   addOns,
   notIncluded,
+  paymentSchedule,
 } from "@/lib/belize-trip";
 
 export const metadata: Metadata = {
   title: "Belize Reef Expedition — Reserve Your Spot",
   description:
-    "An 8-day, small-group dive trip to Belize: the Great Blue Hole, a week of hands-on marine conservation work with ReefCI, and PADI certifications along the way. Only 8 spots per departure.",
+    "An 8-day, small-group dive trip to Belize: the Great Blue Hole, a week of hands-on marine conservation work with ReefCI, and PADI certifications along the way. Only 12 spots per departure.",
 };
 
 export default function HomePage() {
@@ -30,6 +31,10 @@ export default function HomePage() {
             An 8-day small-group trip built around the Great Blue Hole and a
             week of hands-on reef conservation work with ReefCI, closing with
             a night back on the island before you fly home.
+          </p>
+          <p className="mt-3 max-w-xl text-sm font-medium text-seafoam-200">
+            All are welcome — this is a friendly, kind, educational
+            environment for every background and experience level.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -69,7 +74,7 @@ export default function HomePage() {
         </h2>
         <p className="mt-2 max-w-2xl text-ocean-700">
           Choose the tier that fits your schedule and certification level.
-          Only 8 spots per departure.
+          Only 12 spots per departure.
         </p>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
@@ -121,10 +126,36 @@ export default function HomePage() {
           </div>
         </div>
 
-        <p className="mt-6 text-sm text-ocean-700">
-          A $600 deposit via Venmo holds your spot — remaining balance due 1
-          month before departure.
-        </p>
+        <div className="mt-10 rounded-2xl border border-ocean-100 bg-white shadow-sm">
+          <div className="border-b border-ocean-100 p-6">
+            <h3 className="font-semibold text-ocean-900">Payment schedule</h3>
+            <p className="mt-1 text-sm text-ocean-700">
+              Paid via Venmo to{" "}
+              <span className="font-mono font-semibold text-ocean-900">
+                @tess-kneebone
+              </span>
+              . Include your name in the memo for each payment.
+            </p>
+          </div>
+          <div className="flex flex-col divide-y divide-ocean-100">
+            {paymentSchedule.map((payment) => (
+              <div
+                key={payment.label}
+                className="grid gap-1 p-6 sm:grid-cols-[1fr_auto] sm:items-baseline sm:gap-6"
+              >
+                <div>
+                  <p className="font-medium text-ocean-900">
+                    {payment.label}
+                  </p>
+                  <p className="text-sm text-ocean-600">{payment.due}</p>
+                </div>
+                <p className="whitespace-nowrap font-mono text-sm font-semibold text-ocean-900">
+                  {payment.amount}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       <section id="signup" className="bg-ocean-100/60 py-16 sm:py-20">
@@ -134,7 +165,7 @@ export default function HomePage() {
               Reserve your spot
             </h2>
             <p className="mt-3 text-ocean-700">
-              Only 8 spots per departure. Two steps to lock yours in.
+              Only 12 spots per departure. Two steps to lock yours in.
             </p>
           </div>
 
@@ -146,7 +177,7 @@ export default function HomePage() {
                 </span>
                 <div>
                   <h3 className="font-semibold text-ocean-900">
-                    Send your $600 deposit on Venmo
+                    Send your $600 nonrefundable deposit on Venmo
                   </h3>
                   <p className="mt-1 text-sm text-ocean-700">
                     Send{" "}
@@ -158,7 +189,8 @@ export default function HomePage() {
                       @tess-kneebone
                     </span>{" "}
                     on Venmo. Include your full name in the memo so we can
-                    match it to your reservation.
+                    match it to your reservation. This is the first of three
+                    payments — see the full schedule above.
                   </p>
                 </div>
               </div>
@@ -307,8 +339,13 @@ export default function HomePage() {
                 <li>No certification required to join</li>
                 <li>Advanced Open Water required for the Blue Hole dive</li>
                 <li>
-                  Our group of 8 travels together, but the island hosts up to
-                  25 guests a week — you may share it with other travelers
+                  Our group of up to 12 travels together, but the island
+                  hosts up to 25 guests a week — you may share it with other
+                  travelers
+                </li>
+                <li>
+                  All backgrounds & experience levels welcome — a friendly,
+                  kind, educational environment
                 </li>
               </ul>
             </div>

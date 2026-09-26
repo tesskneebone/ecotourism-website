@@ -106,8 +106,10 @@ export default function BelizeReefExpeditionPage() {
         </div>
 
         <p className="mt-6 text-sm text-ocean-700">
-          Only 8 spots per departure. No deposit required to hold your spot —
-          final payment is due 1 month before departure.
+          Only 12 spots per departure. A $600 nonrefundable Venmo deposit
+          (@tess-kneebone) holds your spot, followed by $600 two months
+          before departure and the remaining balance one month before
+          departure.
         </p>
       </section>
 
@@ -235,8 +237,13 @@ export default function BelizeReefExpeditionPage() {
               <li>No certification required to join</li>
               <li>Advanced Open Water required for the Blue Hole dive</li>
               <li>
-                Our group of 8 travels together, but the island hosts up to
-                25 guests a week — you may share it with other travelers
+                Our group of up to 12 travels together, but the island hosts
+                up to 25 guests a week — you may share it with other
+                travelers
+              </li>
+              <li>
+                All backgrounds & experience levels welcome — a friendly,
+                kind, educational environment
               </li>
             </ul>
           </div>

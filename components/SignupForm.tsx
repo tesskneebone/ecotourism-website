@@ -140,9 +140,10 @@ export default function SignupForm({ id }: { id?: string }) {
       )}
 
       <p className="mt-4 text-xs text-ocean-500">
-        Don&apos;t forget step 1: send your $600 deposit to @tess-kneebone on
-        Venmo before (or right after) submitting this form. We&apos;ll follow
-        up to confirm — remaining balance is due 1 month before departure.
+        Don&apos;t forget step 1: send your $600 nonrefundable deposit to
+        @tess-kneebone on Venmo before (or right after) submitting this
+        form. Two more payments follow: $600 two months before departure,
+        then the remaining balance one month before departure.
       </p>
     </form>
   );

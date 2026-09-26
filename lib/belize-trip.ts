@@ -1,5 +1,5 @@
 export const stats = [
-  { label: "Group size", value: "8 divers" },
+  { label: "Group size", value: "12 divers" },
   { label: "Dives", value: "15+" },
   { label: "Length", value: "8 days" },
   { label: "Blue Hole depth", value: "130 ft" },
@@ -94,6 +94,24 @@ export const addOns = [
   { name: "Conservation specialty (Coral, Fish ID, Lionfish, Shark, Naturalist)", price: "$185" },
   { name: "Underwater Photographer", price: "$250" },
   { name: "Divemaster (4-wk stay)", price: "$775" },
+];
+
+export const paymentSchedule = [
+  {
+    label: "Deposit (nonrefundable)",
+    due: "Due at booking",
+    amount: "$600",
+  },
+  {
+    label: "Second payment",
+    due: "Due 2 months before departure",
+    amount: "$600",
+  },
+  {
+    label: "Final balance",
+    due: "Due 1 month before departure",
+    amount: "Remaining balance ($700 Full Expedition / $250 Conservation Week Only)",
+  },
 ];
 
 export const notIncluded = [
