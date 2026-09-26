@@ -214,6 +214,24 @@ export default function HomePage() {
             <div className="mt-6">
               <SignupForm />
             </div>
+
+            <p className="mt-6 text-center text-sm text-ocean-700">
+              Please feel free to reach out to Tess via text or email at{" "}
+              <a
+                href="tel:+17818795405"
+                className="font-medium text-ocean-900 underline underline-offset-2 hover:text-ocean-600"
+              >
+                (781) 879-5405
+              </a>{" "}
+              or{" "}
+              <a
+                href="mailto:tesskneebone@gmail.com"
+                className="font-medium text-ocean-900 underline underline-offset-2 hover:text-ocean-600"
+              >
+                tesskneebone@gmail.com
+              </a>{" "}
+              with any questions.
+            </p>
           </div>
         </div>
       </section>

@@ -8,8 +8,19 @@ export default function Footer() {
             The Conscious Diver
           </p>
           <p className="mt-2 max-w-sm text-sm text-ocean-200">
-            Questions about the trip? Send a note through the form above, or
-            reach out on Instagram.
+            Questions about the trip? Feel free to reach out to Tess via
+            text or email any time — call/text{" "}
+            <a href="tel:+17818795405" className="underline hover:text-white">
+              (781) 879-5405
+            </a>{" "}
+            or email{" "}
+            <a
+              href="mailto:tesskneebone@gmail.com"
+              className="underline hover:text-white"
+            >
+              tesskneebone@gmail.com
+            </a>
+            .
           </p>
         </div>
 
