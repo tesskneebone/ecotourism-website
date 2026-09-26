@@ -117,8 +117,7 @@ export const paymentSchedule = [
 export const notIncluded = [
   "Flights to Placencia, Belize",
   "Meals on Island One (arrival, Blue Hole & return days)",
-  "Wetsuit, fins, booties & mask (bring your own)",
-  "Dive computer, required past 60ft or for Advanced (bring your own)",
+  "Wetsuit, fins, booties, mask & dive computer (required past 60ft or for Advanced) — bring your own or rent",
   "BCD & regulator rental — $45/wk (free with your own gear)",
   "Alcohol & soda on the island — $2–5/drink",
   "PADI eLearning fees (paid direct to PADI)",
