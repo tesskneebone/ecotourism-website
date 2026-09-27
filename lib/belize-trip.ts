@@ -13,13 +13,13 @@ export const itinerary = [
   },
   {
     day: "Day 2",
-    title: "San Pedro diving",
-    body: "First diving day near San Pedro — reef dives and a chance to get comfortable with your gear before the Blue Hole.",
+    title: "Local reef diving",
+    body: "A 2-tank morning dive along the Belize Barrier Reef with Amigos Del Mar — check-in 8:30am, back by around 12:30pm.",
   },
   {
     day: "Day 3",
     title: "The Great Blue Hole",
-    body: "3 dives including the Blue Hole itself at 130ft, for divers with Advanced Open Water certification. Not-yet-advanced divers do alternate dives at shallower reef sites the same day.",
+    body: "A full-day, 3-tank trip with Amigos Del Mar: the Blue Hole itself (130ft), Half Moon Caye Wall (60ft), and Long Caye Aquarium (60ft), with a lunch stop at the Half Moon Caye bird sanctuary. Open Water certification or higher required — recent diving experience recommended. Prefer to stay shallow? Join a second local reef dive instead.",
   },
   {
     day: "Day 4",

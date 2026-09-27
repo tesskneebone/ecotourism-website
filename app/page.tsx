@@ -371,8 +371,19 @@ export default function HomePage() {
                 <li>
                   Meet the boat: Hokey Pokey dock, Placencia, 9:30am Mon
                 </li>
-                <li>No certification required to join</li>
-                <li>Advanced Open Water required for the Blue Hole dive</li>
+                <li>
+                  No certification required to join the conservation
+                  week — but San Pedro diving (Days 2–3) requires an
+                  existing Open Water certification or higher
+                </li>
+                <li>
+                  Open Water certification or higher required for the
+                  Blue Hole trip; recent diving experience recommended
+                </li>
+                <li>
+                  The Blue Hole trip needs a minimum of 10 divers to run —
+                  we coordinate with other travelers to help meet that
+                </li>
                 <li>
                   Our group of up to 12 travels together, but the island
                   hosts up to 25 guests a week — you may share it with other
