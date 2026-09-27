@@ -29,8 +29,8 @@ export default function BelizeReefExpeditionPage() {
           <p className="mt-6 max-w-xl text-lg text-ocean-100">
             A 10-day small-group trip built around the Great Blue Hole out
             of San Pedro and a week of hands-on reef conservation work with
-            ReefCI in Placencia, closing with a night in Placencia before
-            you fly home.
+            ReefCI in Placencia, closing with a night back in San Pedro
+            before you fly home.
           </p>
 
           <dl className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
@@ -91,7 +91,7 @@ export default function BelizeReefExpeditionPage() {
               Join Sunday night
             </h3>
             <p className="mt-2 text-4xl font-bold text-ocean-900">
-              $1,450
+              $1,550
               <span className="text-base font-medium text-ocean-600">
                 {" "}
                 / person
@@ -100,7 +100,8 @@ export default function BelizeReefExpeditionPage() {
             <p className="mt-3 text-sm text-ocean-700">
               Skip San Pedro and the Blue Hole — fly directly into Placencia
               and join Sunday night in time for Monday&apos;s 9:30am boat,
-              then follow the same itinerary through the return night.
+              then travel back through San Pedro with the group for the
+              return night before flying home.
             </p>
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
               12–13 dives total
@@ -245,7 +246,8 @@ export default function BelizeReefExpeditionPage() {
               <li>Ages 13–80 welcome</li>
               <li>
                 Fly into San Pedro (SPR) for the Full Expedition, or
-                Placencia (PLJ) for Conservation Week Only
+                Placencia (PLJ) for Conservation Week Only — both tiers
+                fly out of San Pedro (SPR) at the end
               </li>
               <li>Meet the boat: Hokey Pokey dock, Placencia, 9:30am Mon</li>
               <li>

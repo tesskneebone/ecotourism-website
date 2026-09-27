@@ -99,11 +99,11 @@ export default function SignupForm({ id }: { id?: string }) {
           <select
             id="signup-tier"
             name="tier"
-            defaultValue="Full expedition — $1,900"
+            defaultValue="Full expedition — $2,225"
             className="mt-1 w-full rounded-lg border border-ocean-200 bg-white px-3 py-2 text-sm text-ocean-950 focus:border-ocean-500 focus:outline-none focus:ring-1 focus:ring-ocean-500"
           >
-            <option>Full expedition — $1,900</option>
-            <option>Conservation week only — $1,450</option>
+            <option>Full expedition — $2,225</option>
+            <option>Conservation week only — $1,550</option>
             <option>Not sure yet</option>
           </select>
         </div>
