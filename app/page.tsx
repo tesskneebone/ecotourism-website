@@ -87,7 +87,7 @@ export default function HomePage() {
               Days 1–10
             </h3>
             <p className="mt-2 text-4xl font-bold text-ocean-900">
-              $1,900
+              $2,225
               <span className="text-base font-medium text-ocean-600">
                 {" "}
                 / person
@@ -96,7 +96,8 @@ export default function HomePage() {
             <p className="mt-3 text-sm text-ocean-700">
               San Pedro arrival, two days of diving including the Blue Hole
               (3 dives), the water taxi down to Placencia, the full
-              conservation week, and the return night in Placencia.
+              conservation week, and a night back in San Pedro before you
+              fly home.
             </p>
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
               17+ dives total

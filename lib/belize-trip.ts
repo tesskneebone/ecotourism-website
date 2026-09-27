@@ -48,13 +48,13 @@ export const itinerary = [
   },
   {
     day: "Day 9",
-    title: "Return to Placencia",
-    body: "Final conservation dives, then boat back to Placencia, 10am–noon. Overnight in Placencia before flying out.",
+    title: "Return to San Pedro",
+    body: "Final conservation dives, then boat back to Placencia, 10am–noon. From there, water taxi + shuttle back to San Pedro for the night before flying out.",
   },
   {
     day: "Day 10",
     title: "Depart",
-    body: "Fly home.",
+    body: "Fly home from San Pedro (SPR).",
   },
 ];
 
@@ -86,15 +86,15 @@ export const activities = [
 ];
 
 export const included = [
-  "Island One lodging, arrival + Blue Hole days",
-  "Blue Hole boat trip & 3 dives (or alternate shallow reef dives)",
+  "San Pedro lodging, 4 nights (arrival, diving days & return night)",
+  "Local reef 2-tank dive + Blue Hole 3-tank trip (or alternate shallow reef dives), incl. marine park fee",
+  "San Pedro ↔ Placencia water taxi + shuttle, round trip",
+  "Placencia lodging, 1 night (pre-boat)",
   "5 days / 4 nights, ReefCI private island",
   "3 meals + snacks daily during dive week",
   "12–13 conservation dives, incl. 1 night dive",
-  "Marine park fee & island surcharge",
+  "ReefCI marine park fee & island surcharge",
   "Conservation training & project work",
-  "Return-night lodging, Island One",
-  "All boat transfers between islands",
 ];
 
 export const addOns = [
@@ -120,16 +120,16 @@ export const paymentSchedule = [
   {
     label: "Final balance",
     due: "Due 1 month before departure",
-    amount: "Remaining balance ($700 Full Expedition / $250 Conservation Week Only)",
+    amount: "Remaining balance ($1,025 Full Expedition / $250 Conservation Week Only)",
   },
 ];
 
 export const notIncluded = [
   "Flights into Belize (San Pedro for Full Expedition, Placencia for Conservation Week Only)",
-  "San Pedro → Placencia transfer — water taxi + shuttle ~$30–80, or flight (SPR→PLJ) ~$110–180",
   "Meals in San Pedro & Placencia (arrival, Blue Hole & return days)",
   "Wetsuit, fins, booties, mask & dive computer (required past 60ft or for Advanced) — bring your own or rent",
-  "BCD & regulator rental — $45/wk (free with your own gear)",
+  "BCD & regulator rental — $45/wk on the ReefCI island (free with your own gear)",
+  "Full gear rental in San Pedro — $28.13/day with Amigos Del Mar, if needed (free with your own gear)",
   "Alcohol & soda on the island — $2–5/drink",
   "Private bedroom instead of shared — additional fee, contact Tess directly for rates",
   "PADI eLearning fees (paid direct to PADI)",
