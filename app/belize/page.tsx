@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Belize Reef Expedition — Reserve Your Spot",
   description:
-    "An 8-day, small-group dive trip to Belize: the Great Blue Hole, a week of hands-on marine conservation work with ReefCI, and PADI certifications along the way. Only 12 spots per departure.",
+    "A 10-day, small-group dive trip to Belize: the Great Blue Hole out of San Pedro, a week of hands-on marine conservation work with ReefCI in Placencia, and PADI certifications along the way. Only 12 spots per departure.",
 };
 
 export default function BelizeLandingPage() {
@@ -28,9 +28,10 @@ export default function BelizeLandingPage() {
             Belize Reef Expedition
           </h1>
           <p className="mt-6 max-w-xl text-lg text-ocean-100">
-            An 8-day small-group trip built around the Great Blue Hole and a
-            week of hands-on reef conservation work with ReefCI, closing with
-            a night back on the island before you fly home.
+            A 10-day small-group trip built around the Great Blue Hole out
+            of San Pedro and a week of hands-on reef conservation work with
+            ReefCI in Placencia, closing with a night in Placencia before
+            you fly home.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -79,7 +80,7 @@ export default function BelizeLandingPage() {
               Full expedition
             </span>
             <h3 className="mt-4 text-xl font-bold text-ocean-900">
-              Days 1–8
+              Days 1–10
             </h3>
             <p className="mt-2 text-4xl font-bold text-ocean-900">
               $1,900
@@ -89,11 +90,12 @@ export default function BelizeLandingPage() {
               </span>
             </p>
             <p className="mt-3 text-sm text-ocean-700">
-              Arrival, the Blue Hole (3 dives), the full conservation week,
-              and the return night on Island One.
+              San Pedro arrival, two days of diving including the Blue Hole
+              (3 dives), the water taxi down to Placencia, the full
+              conservation week, and the return night in Placencia.
             </p>
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
-              15+ dives total
+              17+ dives total
             </p>
           </div>
 
@@ -112,9 +114,9 @@ export default function BelizeLandingPage() {
               </span>
             </p>
             <p className="mt-3 text-sm text-ocean-700">
-              Skip the arrival day and the Blue Hole — join Sunday night in
-              time for Monday&apos;s 9:30am boat, then follow the same
-              itinerary through the return night.
+              Skip San Pedro and the Blue Hole — fly directly into Placencia
+              and join Sunday night in time for Monday&apos;s 9:30am boat,
+              then follow the same itinerary through the return night.
             </p>
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
               12–13 dives total
@@ -268,6 +270,10 @@ export default function BelizeLandingPage() {
               <h3 className="font-semibold text-ocean-900">Logistics</h3>
               <ul className="mt-4 space-y-2 text-sm text-ocean-700">
                 <li>Ages 13–80 welcome</li>
+                <li>
+                  Fly into San Pedro (SPR) for the Full Expedition, or
+                  Placencia (PLJ) for Conservation Week Only
+                </li>
                 <li>
                   Meet the boat: Hokey Pokey dock, Placencia, 9:30am Mon
                 </li>

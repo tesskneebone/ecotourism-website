@@ -1,48 +1,58 @@
 export const stats = [
   { label: "Group size", value: "12 divers" },
-  { label: "Dives", value: "15+" },
-  { label: "Length", value: "8 days" },
+  { label: "Dives", value: "17+" },
+  { label: "Length", value: "10 days" },
   { label: "Blue Hole depth", value: "130 ft" },
 ];
 
 export const itinerary = [
   {
     day: "Day 1",
-    title: "Arrive, Island One",
-    body: "Check in, gear check, welcome dinner with the group.",
+    title: "Arrive, San Pedro",
+    body: "Thursday night arrival. Check in, gear check, welcome dinner with the group.",
   },
   {
     day: "Day 2",
+    title: "San Pedro diving",
+    body: "First diving day near San Pedro — reef dives and a chance to get comfortable with your gear before the Blue Hole.",
+  },
+  {
+    day: "Day 3",
     title: "The Great Blue Hole",
     body: "3 dives including the Blue Hole itself at 130ft, for divers with Advanced Open Water certification. Not-yet-advanced divers do alternate dives at shallower reef sites the same day.",
   },
   {
-    day: "Day 3",
+    day: "Day 4",
+    title: "Travel to Placencia",
+    body: "Water taxi from San Pedro to Belize City (~75 min), then a ground shuttle down to Placencia (~3.5–4.5 hrs). Arrive in time to meet the Conservation Week Only group, who fly in directly.",
+  },
+  {
+    day: "Day 5",
     title: "ReefCI island, arrival",
     body: "Boat from Placencia's Hokey Pokey dock, 9:30am. New divers start Open Water certification (equipment & first shore dive); certified divers begin conservation dives.",
   },
   {
-    day: "Day 4",
+    day: "Day 6",
     title: "Conservation program",
     body: "New divers continue certification with confined training dives; certified divers run biodiversity ID and reef survey dives.",
   },
   {
-    day: "Day 5",
+    day: "Day 7",
     title: "Conservation program",
     body: "New divers complete open water certification dives — certified by end of day. Advanced divers can join the week's night dive.",
   },
   {
-    day: "Day 6",
+    day: "Day 8",
     title: "Conservation program",
     body: "Full day of conservation dives for everyone, newly certified or not — lionfish removal, surveys, and education sessions.",
   },
   {
-    day: "Day 7",
-    title: "Return to Island One",
-    body: "Final conservation dives, then boat back to Placencia, 10am–noon. Overnight on Island One before flying out.",
+    day: "Day 9",
+    title: "Return to Placencia",
+    body: "Final conservation dives, then boat back to Placencia, 10am–noon. Overnight in Placencia before flying out.",
   },
   {
-    day: "Day 8",
+    day: "Day 10",
     title: "Depart",
     body: "Fly home.",
   },
@@ -115,8 +125,9 @@ export const paymentSchedule = [
 ];
 
 export const notIncluded = [
-  "Flights to Placencia, Belize",
-  "Meals on Island One (arrival, Blue Hole & return days)",
+  "Flights into Belize (San Pedro for Full Expedition, Placencia for Conservation Week Only)",
+  "San Pedro → Placencia transfer — water taxi + shuttle ~$30–80, or flight (SPR→PLJ) ~$110–180",
+  "Meals in San Pedro & Placencia (arrival, Blue Hole & return days)",
   "Wetsuit, fins, booties, mask & dive computer (required past 60ft or for Advanced) — bring your own or rent",
   "BCD & regulator rental — $45/wk (free with your own gear)",
   "Alcohol & soda on the island — $2–5/drink",
