@@ -123,6 +123,11 @@ export default function HomePage() {
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
               12–13 dives total
             </p>
+            <p className="mt-4 border-t border-ocean-100 pt-3 text-xs text-ocean-500">
+              Working toward Open Water certification? This tier is
+              recommended — landing Sunday puts you right on schedule for
+              Monday&apos;s certification dives.
+            </p>
           </div>
         </div>
 
@@ -156,6 +161,12 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+
+        <p className="mt-6 text-sm text-ocean-700">
+          Refunds are granted for whatever is possible depending on when
+          they&apos;re requested — we recommend picking up travel insurance
+          to cover the rest.
+        </p>
       </section>
 
       <section id="signup" className="bg-ocean-100/60 py-16 sm:py-20">

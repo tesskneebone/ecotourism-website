@@ -119,13 +119,20 @@ export default function BelizeLandingPage() {
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
               12–13 dives total
             </p>
+            <p className="mt-4 border-t border-ocean-100 pt-3 text-xs text-ocean-500">
+              Working toward Open Water certification? This tier is
+              recommended — landing Sunday puts you right on schedule for
+              Monday&apos;s certification dives.
+            </p>
           </div>
         </div>
 
         <p className="mt-6 text-sm text-ocean-700">
           A $600 nonrefundable deposit via Venmo (@tess-kneebone) holds your
           spot, followed by $600 two months before departure and the
-          remaining balance one month before departure.
+          remaining balance one month before departure. Refunds are granted
+          for whatever is possible depending on when they&apos;re requested
+          — we recommend picking up travel insurance to cover the rest.
         </p>
       </section>
 
