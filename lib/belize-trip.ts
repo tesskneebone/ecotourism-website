@@ -1,58 +1,58 @@
 export const stats = [
+  { label: "Dates", value: "Dec 10–19, 2026" },
   { label: "Group size", value: "12 divers" },
   { label: "Dives", value: "17+" },
-  { label: "Length", value: "10 days" },
   { label: "Blue Hole depth", value: "130 ft" },
 ];
 
 export const itinerary = [
   {
-    day: "Day 1",
+    day: "Day 1 — Thu, Dec 10",
     title: "Arrive, San Pedro",
     body: "Thursday night arrival. Check in, gear check, welcome dinner with the group.",
   },
   {
-    day: "Day 2",
+    day: "Day 2 — Fri, Dec 11",
     title: "Local reef diving",
     body: "A 2-tank morning dive along the Belize Barrier Reef with Amigos Del Mar — check-in 8:30am, back by around 12:30pm.",
   },
   {
-    day: "Day 3",
+    day: "Day 3 — Sat, Dec 12",
     title: "The Great Blue Hole",
     body: "A full-day, 3-tank trip with Amigos Del Mar: the Blue Hole itself (130ft), Half Moon Caye Wall (60ft), and Long Caye Aquarium (60ft), with a lunch stop at the Half Moon Caye bird sanctuary. Open Water certification or higher required — recent diving experience recommended. Prefer to stay shallow? Join a second local reef dive instead.",
   },
   {
-    day: "Day 4",
+    day: "Day 4 — Sun, Dec 13",
     title: "Travel to Placencia",
     body: "Water taxi from San Pedro to Belize City (~75 min), then a ground shuttle down to Placencia (~3.5–4.5 hrs). Arrive in time to meet the Conservation Week Only group, who fly in directly.",
   },
   {
-    day: "Day 5",
+    day: "Day 5 — Mon, Dec 14",
     title: "ReefCI island, arrival",
     body: "Boat from Placencia's Hokey Pokey dock, 9:30am. New divers start Open Water certification (equipment & first shore dive); certified divers begin conservation dives.",
   },
   {
-    day: "Day 6",
+    day: "Day 6 — Tue, Dec 15",
     title: "Conservation program",
     body: "New divers continue certification with confined training dives; certified divers run biodiversity ID and reef survey dives.",
   },
   {
-    day: "Day 7",
+    day: "Day 7 — Wed, Dec 16",
     title: "Conservation program",
     body: "New divers complete open water certification dives — certified by end of day. Advanced divers can join the week's night dive.",
   },
   {
-    day: "Day 8",
+    day: "Day 8 — Thu, Dec 17",
     title: "Conservation program",
     body: "Full day of conservation dives for everyone, newly certified or not — lionfish removal, surveys, and education sessions.",
   },
   {
-    day: "Day 9",
+    day: "Day 9 — Fri, Dec 18",
     title: "Return travel",
     body: "Final conservation dives, then boat back to Placencia, 10am–noon. Full Expedition continues on — water taxi + shuttle back to San Pedro for the night before flying out. Conservation Week Only stays in Placencia for a final night before flying out.",
   },
   {
-    day: "Day 10",
+    day: "Day 10 — Sat, Dec 19",
     title: "Depart",
     body: "Full Expedition flies home from San Pedro (SPR); Conservation Week Only flies home from Placencia (PLJ).",
   },
@@ -114,12 +114,12 @@ export const paymentSchedule = [
   },
   {
     label: "Second payment",
-    due: "Due 2 months before departure",
+    due: "Due 2 months before departure (Oct 10, 2026)",
     amount: "$600",
   },
   {
     label: "Final balance",
-    due: "Due 1 month before departure",
+    due: "Due 1 month before departure (Nov 10, 2026)",
     amount: "Remaining balance ($1,000 Full Expedition / $200 Conservation Week Only)",
   },
 ];
