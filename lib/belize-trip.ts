@@ -48,13 +48,13 @@ export const itinerary = [
   },
   {
     day: "Day 9",
-    title: "Return to San Pedro",
-    body: "Final conservation dives, then boat back to Placencia, 10am–noon. From there, water taxi + shuttle back to San Pedro for the night before flying out.",
+    title: "Return travel",
+    body: "Final conservation dives, then boat back to Placencia, 10am–noon. Full Expedition continues on — water taxi + shuttle back to San Pedro for the night before flying out. Conservation Week Only stays in Placencia for a final night before flying out.",
   },
   {
     day: "Day 10",
     title: "Depart",
-    body: "Fly home from San Pedro (SPR).",
+    body: "Full Expedition flies home from San Pedro (SPR); Conservation Week Only flies home from Placencia (PLJ).",
   },
 ];
 
@@ -86,10 +86,10 @@ export const activities = [
 ];
 
 export const included = [
-  "San Pedro lodging — 3 nights for Full Expedition (arrival & diving days), plus 1 return night for both tiers",
+  "Full Expedition only: San Pedro lodging, 4 nights (arrival, diving days & return night)",
   "Full Expedition only: local reef 2-tank dive + Blue Hole 3-tank trip (or alternate shallow reef dives), incl. marine park fee",
-  "San Pedro ↔ Placencia transfer, water taxi + shuttle — round trip for Full Expedition, one-way return for Conservation Week Only",
-  "Placencia lodging, 1 night (pre-boat)",
+  "Full Expedition only: San Pedro ↔ Placencia water taxi + shuttle, round trip",
+  "Placencia lodging, 2 nights (1 pre-boat, 1 on return — Conservation Week Only) / 1 night pre-boat (Full Expedition)",
   "5 days / 4 nights, ReefCI private island",
   "3 meals + snacks daily during dive week",
   "12–13 conservation dives, incl. 1 night dive",
@@ -120,12 +120,12 @@ export const paymentSchedule = [
   {
     label: "Final balance",
     due: "Due 1 month before departure",
-    amount: "Remaining balance ($1,025 Full Expedition / $350 Conservation Week Only)",
+    amount: "Remaining balance ($1,025 Full Expedition / $200 Conservation Week Only)",
   },
 ];
 
 export const notIncluded = [
-  "Flights into Belize — San Pedro (SPR) for Full Expedition; Placencia (PLJ) in / San Pedro (SPR) out for Conservation Week Only",
+  "Flights into Belize (San Pedro for Full Expedition, Placencia for Conservation Week Only)",
   "Meals in San Pedro & Placencia (arrival, Blue Hole & return days)",
   "Wetsuit, fins, booties, mask & dive computer (required past 60ft or for Advanced) — bring your own or rent",
   "BCD & regulator rental — $45/wk on the ReefCI island (free with your own gear)",

@@ -112,7 +112,7 @@ export default function HomePage() {
               Join Sunday night
             </h3>
             <p className="mt-2 text-4xl font-bold text-ocean-900">
-              $1,550
+              $1,400
               <span className="text-base font-medium text-ocean-600">
                 {" "}
                 / person
@@ -121,8 +121,7 @@ export default function HomePage() {
             <p className="mt-3 text-sm text-ocean-700">
               Skip San Pedro and the Blue Hole — fly directly into Placencia
               and join Sunday night in time for Monday&apos;s 9:30am boat,
-              then travel back through San Pedro with the group for the
-              return night before flying home.
+              then fly out of Placencia after the conservation week.
             </p>
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ocean-500">
               12–13 dives total
@@ -368,8 +367,7 @@ export default function HomePage() {
                 <li>Ages 13–80 welcome</li>
                 <li>
                   Fly into San Pedro (SPR) for the Full Expedition, or
-                  Placencia (PLJ) for Conservation Week Only — both tiers
-                  fly out of San Pedro (SPR) at the end
+                  Placencia (PLJ) for Conservation Week Only
                 </li>
                 <li>
                   Meet the boat: Hokey Pokey dock, Placencia, 9:30am Mon
