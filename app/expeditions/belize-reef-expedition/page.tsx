@@ -66,7 +66,7 @@ export default function BelizeReefExpeditionPage() {
               Days 1–10
             </h3>
             <p className="mt-2 text-4xl font-bold text-ocean-900">
-              $2,225
+              $2,200
               <span className="text-base font-medium text-ocean-600">
                 {" "}
                 / person

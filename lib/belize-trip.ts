@@ -120,7 +120,7 @@ export const paymentSchedule = [
   {
     label: "Final balance",
     due: "Due 1 month before departure",
-    amount: "Remaining balance ($1,025 Full Expedition / $200 Conservation Week Only)",
+    amount: "Remaining balance ($1,000 Full Expedition / $200 Conservation Week Only)",
   },
 ];
 
